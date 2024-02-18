@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "Titillium Web", sans-serif;
+    
+}
+
+.main{
+    background-color: #14213d;
+    min-height: 100vh;
+}
+
+.main h1{
+    padding: 2rem;
+    color: #e5e5e5;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+
+.card{
+    text-align: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 300px;
+    border-radius: 10px;
+    padding:.5rem;
+}
+.card>div{
+    flex: 1;
+}
+
+.card img{
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.topRow, .bottomRow{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.topRow:nth-child(1){
+    font-weight: 600;
+}
+
+.bottomRow .minus{
+    color: red;
+}
+
+.bottomRow .plus {
+    color: green;
+}
